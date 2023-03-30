@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ecommerce-service
+  main:
+    allow-bean-definition-overriding: true
+    banner-mode: off
+  data:
+    mongodb:
+      uri: "mongodb://localhost:27017/ecommerce"
+      auto-index-creation: true
